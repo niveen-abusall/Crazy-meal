@@ -6,7 +6,7 @@
 * {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
 
@@ -27,16 +27,16 @@ html, body {
 
 header {
   flex-wrap: wrap;
-  background-color: #ffffffcc;  /* Slight white background with some transparency */
-  color: 4f772d;               /* Fix the missing # */
+  background-color: #ffffffcc;  
+  color: 4f772d;               
   text-align: center;
   font-size: 2em;
   font-weight: bold;
   border-radius: 20px;
   padding: 20px;
   margin: 20px auto;
-  max-width: 800px;             /* Keeps header nicely centered and not too wide */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Soft shadow */
+  max-width: 800px;             
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
 }
 
 
@@ -59,7 +59,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: 4f772d; /* Darker green on hover */
+  background-color: 4f772d; 
 }
 
 /*index*/
@@ -88,15 +88,15 @@ table, th, td {
 
 
 h2 {
-  background-color: #ffffffcc;  /* Slight white background with some transparency */
-  color: 4f772d;               /* Fix the missing # */
+  background-color: #ffffffcc;  
+  color: 4f772d;               
   text-align: center;
   font-size: 2em;
   font-weight: bold;
   border-radius: 20px;
   padding: 20px;
   margin: 20px auto;
-  max-width: 800px;             /* Keeps header nicely centered and not too wide */
+  max-width: 800px;            
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 
 }
@@ -109,17 +109,17 @@ form {
   align-items: center;
   gap: 20px;
   color: #4f772d;
-  width: fit-content;    /* makes form shrink to its content */
-  margin: 50px auto;     /* centers the form horizontally */
-  padding: 15px;         /* optional spacing inside */
-  border-radius: 10px;   /* optional rounded corners */
+  width: fit-content;    
+  margin: 50px auto;     
+  padding: 15px;         
+  border-radius: 10px;   
 }
 
 
 label {
-  font-size: 20px;          /* fixed this (it was "larger 20px") */
+  font-size: 20px;          
   font-weight: bolder;
-  color: 4f772d;              /* dark text for contrast */
+  color: 4f772d;             
 }
 
 
@@ -154,7 +154,7 @@ font-weight: bolder;
 #ordersTable td {
   padding: 12px 15px;
   text-align: center;
-  border: none; /* removed borders */
+  border: none; 
 }
 
 #ordersTable thead {
@@ -164,7 +164,7 @@ font-weight: bolder;
 }
 
 #ordersTable tbody tr:nth-child(even) {
-  background-color: #ffe0b2; /* same background for clean look */
+  background-color: #ffe0b2; 
   color: 4f772d;
 }
 
@@ -199,33 +199,32 @@ font-weight: bolder;
 /*MENU*/
 h1 {
 
-  background-color: #ffffffcc;  /* Slight white background with some transparency */
-  color: 4f772d;               /* Fix the missing # */
+  background-color: #ffffffcc;  
+  color: 4f772d;               
   text-align: center;
   font-size: 2em;
   font-weight: bold;
   border-radius: 20px;
   padding: 20px;
   margin: 20px auto;
-  max-width: 800px;             /* Keeps header nicely centered and not too wide */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Soft shadow */
+  max-width: 800px;             
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
 }
 
 
 /*Its all about the chicken!(MENU)*/
 
 p {
-  font-size: 1.8rem;       /* Bigger text */
-  font-style: italic;      /* Italic for quote style */
-  text-align: center;      /* Center it on the page */
-  color: #d35400;          /* Warm orange color */
-  margin: 20px 0;          /* Space above and below */
-  padding: 10px 20px;      /* Inner spacing */
-  border-left: 5px solid #d35400; /* Stylish left border */
-  background-color: #fff8f0;      /* Light background */
-  display: inline-block;   /* Fit to content */
-  border-radius: 8px;      /* Rounded corners */
-  
+  font-size: 1.8rem;       
+  font-style: italic;      
+  text-align: center;      
+  color: #d35400;          
+  margin: 20px 0;          
+  padding: 10px 20px;      
+  border-left: 5px solid #d35400;
+  background-color: #fff8f0;      
+  display: inline-block;   
+  border-radius: 8px;     
 }
 
 .meal-list {
