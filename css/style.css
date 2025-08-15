@@ -1,0 +1,257 @@
+
+
+
+
+
+* {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+/*2html*/
+html, body {
+  background-image: url(https://images7.alphacoders.com/977/thumb-1920-977986.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-wrap: wrap;
+
+}
+
+
+
+/* crazy meal(2html)*/
+
+header {
+  flex-wrap: wrap;
+  background-color: #ffffffcc;  /* Slight white background with some transparency */
+  color: 4f772d;               /* Fix the missing # */
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;             /* Keeps header nicely centered and not too wide */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Soft shadow */
+}
+
+
+
+/*navigation bar(2 html)*/
+nav {
+  display: flex; 
+  justify-content: center;
+  gap: 10px; 
+  padding: 20px;
+}
+
+nav a {
+  background-color: 90a955; 
+  color: white;              
+  padding: 10px 20px;       
+  text-decoration: none;     
+  border-radius: 5px;       
+  transition: background-color 0.3s; 
+}
+
+nav a:hover {
+  background-color: 4f772d; /* Darker green on hover */
+}
+
+/*index*/
+table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 8px;
+      text-align: center;
+    }
+    img {
+      width: 100px;
+      height: auto;
+    }
+
+
+.AddOrder {
+  justify-content: center;
+  background-color: 90a955; 
+  color: white;              
+  padding: 10px 20px;       
+  text-decoration: none;     
+  border-radius: 5px;  
+  border-color: 90a955;     
+  cursor: pointer;
+}  
+
+
+h2 {
+  background-color: #ffffffcc;  /* Slight white background with some transparency */
+  color: 4f772d;               /* Fix the missing # */
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;             /* Keeps header nicely centered and not too wide */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  color: #4f772d;
+  width: fit-content;    /* makes form shrink to its content */
+  margin: 50px auto;     /* centers the form horizontally */
+  padding: 15px;         /* optional spacing inside */
+  border-radius: 10px;   /* optional rounded corners */
+}
+
+
+label {
+  font-size: 20px;          /* fixed this (it was "larger 20px") */
+  font-weight: bolder;
+  color: 4f772d;              /* dark text for contrast */
+}
+
+
+select {
+  border-radius: 18px;
+  color: 4f772d;
+  border-color: #ee9b1e;
+  background-color: #ffffffcc;
+
+}
+
+input {
+border-radius: 18px;  
+border-color: #ee9b1e;
+background-color: #ffffffcc;
+color: 4f772d;
+font-weight: bolder;
+}
+
+
+#ordersTable {
+  width: 80%;
+  margin: 30px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #ffe0b2;
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+}
+
+#ordersTable th, 
+#ordersTable td {
+  padding: 12px 15px;
+  text-align: center;
+  border: none; /* removed borders */
+}
+
+#ordersTable thead {
+  background-color: #ee9b1e;
+  color: rgb(230, 223, 215);
+  font-size: 18px;
+}
+
+#ordersTable tbody tr:nth-child(even) {
+  background-color: #ffe0b2; /* same background for clean look */
+  color: 4f772d;
+}
+
+#ordersTable tbody tr:hover {
+  background-color: #e4c18e;
+  cursor: pointer;
+  color: 4f772d;
+}
+
+#ordersTable td img {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+
+}
+#ordersTable td {
+  color: 4f772d;
+}
+
+.ClearOrders , button {
+  display: block;
+  margin: 20px auto;   
+  background-color: #d8702a;
+  color: white;              
+  padding: 10px 20px;          
+  border-radius: 5px;  
+  border-color: #d8702a;     
+  cursor: pointer;  
+}
+
+/*MENU*/
+h1 {
+
+  background-color: #ffffffcc;  /* Slight white background with some transparency */
+  color: 4f772d;               /* Fix the missing # */
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;             /* Keeps header nicely centered and not too wide */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Soft shadow */
+}
+
+
+/*Its all about the chicken!(MENU)*/
+
+p {
+  font-size: 1.8rem;       /* Bigger text */
+  font-style: italic;      /* Italic for quote style */
+  text-align: center;      /* Center it on the page */
+  color: #d35400;          /* Warm orange color */
+  margin: 20px 0;          /* Space above and below */
+  padding: 10px 20px;      /* Inner spacing */
+  border-left: 5px solid #d35400; /* Stylish left border */
+  background-color: #fff8f0;      /* Light background */
+  display: inline-block;   /* Fit to content */
+  border-radius: 8px;      /* Rounded corners */
+  
+}
+
+.meal-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 18px;
+  color: 4f772d;
+  justify-content: center;
+}
+
+.meal {
+  flex-wrap: wrap;
+  width: 200px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.meal img {
+  flex-wrap: wrap;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
